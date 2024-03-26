@@ -13,9 +13,7 @@ incBtn.addEventListener("click", function () {
 
 decBtn.addEventListener("click", function () {
   count--;
-  console.log("incSpan", incSpan);
   incSpan.textContent = count;
-  console.log("count", count);
 });
 
 btn.onclick = function () {
